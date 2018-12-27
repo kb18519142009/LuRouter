@@ -8,12 +8,10 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.bai.mine.R;
-import com.example.bai.utils.annotation.RouterExport;
 
 /**
  * Created by kangbaibai on 2018/12/20.
  */
-@RouterExport
 public class MineFragment extends Fragment {
     @Nullable
     @Override

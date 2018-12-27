@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module name="home" package="com.example.bai.home">
     <fragment name="home" class=".fragment.HomeFragment" />
-
+    <activity name="news_detail" class=".activity.NewsDetialActivity"
+        url="/goto/news_detail">
+        <arg name="id" type="string" />
+    </activity>
+    <service name="channel_service" class=".service.ChannelService" />
 </module>
